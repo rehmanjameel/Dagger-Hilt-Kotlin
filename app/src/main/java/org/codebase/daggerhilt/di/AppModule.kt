@@ -18,6 +18,7 @@ object AppModule {
         return appContext as BaseApplication
     }
 
+//    @Impl3
     @Singleton
     @Provides
     fun provideRandomString() : String {
